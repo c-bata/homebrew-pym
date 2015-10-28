@@ -1,10 +1,10 @@
 class Pym < Formula
   desc "Simple python interpreter manager"
   homepage "https://github.com/c-bata/pym"
-  url "https://github.com/c-bata/pym/releases/download/v0.0.4/pym"
+  url "https://github.com/c-bata/pym/releases/download/v0.0.5/pym"
   # openssl dgst -sha256 pym
-  sha256 "93c513e70c271361e332c1383f3b95ee618e4679c9eb03449162bb5ae910d8ec"
-  version "0.0.4"
+  sha256 "9eb4c348cb2db22a05c8ca3ec46d189d568427e0d215f8d10b258a974346d311"
+  version "0.0.5"
 
   def install
     bin.install 'pym'
